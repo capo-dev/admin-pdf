@@ -19,6 +19,15 @@ impl std::fmt::Display for Error {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct CourtCase {
-    case_number: String,
-    hearing_date: NaiveDate,
+    pub case_number: String,
+    pub hearing_date: NaiveDate,
 }
+
+#[derive(Serialize, Deserialize, Debug)]
+pub struct HarrisQuery {
+    pub court: u16,
+    pub start_date: NaiveDate,
+    pub end_date: NaiveDate,
+}
+
+pub const MIDDLE_ENDIAN_FORMAT: &'static str = "%m/%d/%Y";
