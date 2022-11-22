@@ -1,20 +1,23 @@
 # admin-pdf
+
 Implementation & Goals
 
 ## Goals
 
-* [ ] - Rust / Typescript Based Web Scraper With ⚡️ CSV / JSON Support.
+- [ ] - Rust / Typescript Based Web Scraper With ⚡️ CSV / JSON Support.
 
-* [ ] - Case Look Up & PDF Pre-Fill 📄.
+- [x] - Harris County CSV Deserialization Into Court Case Struct.
 
-* [ ] - Invoice & Payment Page 💰.
+- [ ] - Case Look Up & PDF Pre-Fill 📄.
 
-* [ ] - Landing Page.
+- [ ] - Invoice & Payment Page 💰.
 
-* [ ] - Login Support.
+- [ ] - Landing Page.
+
+- [ ] - Login Support.
 
 ## Directories
 
-* **/admin** - Local Admin Server.
+- **/admin** - Local Admin Server.
 
-* **/www** - Front-End User Site.
+- **/www** - Front-End User Site.
