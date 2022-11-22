@@ -1,0 +1,10 @@
+[package]
+name = "client"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+admin = { path = ".." }
+serde = { version = "1.0.147", features = ["derive"] }
+chrono = { version = "0.4.23", features = ["serde"] }
+yew = "0.19.3"
